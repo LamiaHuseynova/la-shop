@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./fag.component.scss']
 })
 export class FagComponent {
-
+  panelOpenState = false;
 }
