@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { FagComponent } from './fag/fag.component';
 import { MaterialModule } from './material.module';
+import { DialogComponent } from './dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MaterialModule } from './material.module';
     MenuComponent,
     FooterComponent,
     HomeComponent,
-    FagComponent
+    FagComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
