@@ -9,7 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { FagComponent } from './fag/fag.component';
 import { MaterialModule } from './material.module';
-import { DialogComponent } from './dialog/dialog.component';
+import { ClothesComponent } from './clothes/clothes.component';
+import { ClothesDialogComponent } from './clothes-dialog/clothes-dialog.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { DialogComponent } from './dialog/dialog.component';
     FooterComponent,
     HomeComponent,
     FagComponent,
-    DialogComponent
+    ClothesComponent,
+    ClothesDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,7 @@ import { DialogComponent } from './dialog/dialog.component';
     BrowserAnimationsModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents:[ClothesDialogComponent]
 })
 export class AppModule { }
