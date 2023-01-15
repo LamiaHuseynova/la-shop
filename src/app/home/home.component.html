@@ -1,25 +1,65 @@
+<!-- carousel -->
 <div class="container-fluid">
-  <div class="row txt_center">
-    <h1>Clothes Shop</h1>
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active my_crsl">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>LA SHOP</h1>
+            <p>Sign up and get 30% off for your first shopping.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item my_crsl">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg> 
+      </div>
+
+      <div class="carousel-item my_crsl">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
+</div>
+
+<!-- Collection -->
+<div class="container-fluid">
+  <div class="row collect_header">
+    <h1>Collection</h1>
+  </div>
+</div>
+
+
+<!-- Cards 1st row-->
+<div class="container-fluid">
   <div class="row">
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Dresses</mat-card-title>
+          
+          <mat-card-title class="card_title">Dresses</mat-card-title>
         </mat-card-header>
         <img mat-card-image src="../../assets/images/dresses.PNG" alt="Photos of a Dresses">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -28,20 +68,12 @@
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Suits</mat-card-title>
+          <mat-card-title class="card_title">Suits</mat-card-title>
         </mat-card-header>
         <img mat-card-image src="../../assets/images/suits.JPG" alt="Photos of a Suits">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -50,20 +82,12 @@
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Bags</mat-card-title>
+          <mat-card-title class="card_title">Mom & Kids</mat-card-title>
         </mat-card-header>
-        <img mat-card-image src="../../assets/images/bags.PNG" alt="Photos of a Bags">
+        <img mat-card-image src="../../assets/images/mom & kids.JPG" alt="Photos of a Bag & Shoes">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -72,20 +96,12 @@
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Coats</mat-card-title>
+          <mat-card-title class="card_title">Coats</mat-card-title>
         </mat-card-header>
         <img mat-card-image src="../../assets/images/coats.PNG" alt="Photos of a Coats">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -94,25 +110,17 @@
 
     <br>
     <br>
-
+<!-- Cards 2nd row-->
   <div class="row">
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Shoes</mat-card-title>
+          <mat-card-title class="card_title">Bags & Shoes</mat-card-title>
         </mat-card-header>
-        <img mat-card-image src="../../assets/images/shoes.PNG" alt="Photos of a Shoes">
+        <img mat-card-image src="../../assets/images/bag&shoes.jpg" alt="Photos of a Shoes">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -121,20 +129,12 @@
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Accessories</mat-card-title>
+          <mat-card-title class="card_title">Accessories</mat-card-title>
         </mat-card-header>
         <img mat-card-image src="../../assets/images/accessories.JPG" alt="Photos of a Accessories">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -143,20 +143,12 @@
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Hats</mat-card-title>
+          <mat-card-title class="card_title">Hats</mat-card-title>
         </mat-card-header>
         <img mat-card-image src="../../assets/images/hats.PNG" alt="Photos of a Hats">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
@@ -165,26 +157,16 @@
     <div class="col-md-3">
       <mat-card class="example-card">
         <mat-card-header>
-          <div mat-card-avatar class="example-header-image"></div>
-          <mat-card-title>Sports</mat-card-title>
+          <mat-card-title class="card_title">Sports</mat-card-title>
         </mat-card-header>
         <img mat-card-image src="../../assets/images/sports.JPG" alt="Photos of a Sports">
         <mat-card-actions>
           <button mat-button>
-            <span class="material-symbols-outlined">
-              favorite
-            </span>
-          </button>
-          <button mat-button>
-            <span class="material-symbols-outlined">
-              shopping_cart
-            </span>
+            <h3>See More</h3>
           </button>
         </mat-card-actions>
       </mat-card>
     </div>
-
-
 
   </div>
 </div>

@@ -9,14 +9,14 @@ import { ClothesDialogComponent } from '../clothes-dialog/clothes-dialog.compone
 })
 export class ClothesComponent {
   clothes=[
-    {title: "Dresses", article: "Lorem Ipsum", img_path: "../../assets/images/dresses.PNG" },
-    {title: "Suits", article: "Lorem Ipsum", img_path: "../../assets/images/suits.JPG" },
-    {title: "Bags", article: "Lorem Ipsum", img_path: "../../assets/images/bags.PNG" },
-    {title: "Coats", article: "Lorem Ipsum", img_path: "../../assets/images/coats.PNG" },
-    {title: "Shoes", article: "Lorem Ipsum", img_path: "../../assets/images/shoes.PNG" },
-    {title: "Accessories", article: "Lorem Ipsum", img_path: "../../assets/images/accessories.JPG" },
-    {title: "Hats", article: "Lorem Ipsum", img_path: "../../assets/images/hats.PNG" },
-    {title: "Sports", article: "Lorem Ipsum", img_path: "../../assets/images/sports.JPG" },
+    {title: "Dresses", img_path: "../../assets/images/dresses.PNG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque."  },
+    {title: "Suits", img_path: "../../assets/images/suits.JPG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque." },
+    {title: "Bags", img_path: "../../assets/images/bags.PNG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque." },
+    {title: "Coats", img_path: "../../assets/images/coats.PNG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque." },
+    {title: "Shoes", img_path: "../../assets/images/shoes.PNG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque." },
+    {title: "Accessories", img_path: "../../assets/images/accessories.JPG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque." },
+    {title: "Hats", img_path: "../../assets/images/hats.PNG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque." },
+    {title: "Sports", img_path: "../../assets/images/sports.JPG", article: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur omnis magnam reprehenderit possimus minima officia vel beatae distinctio impedit doloremque." },
   ]
   constructor(public dialog: MatDialog) {
 

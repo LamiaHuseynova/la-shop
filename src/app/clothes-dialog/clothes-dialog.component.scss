@@ -1,0 +1,15 @@
+
+.left_side {
+    width: 45% !important;
+    padding-right: 20px;
+}
+.right_side {
+    width: 55% !important;
+    float: right !important;
+}
+.options {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-around !important;
+    align-items: flex-end !important;
+}

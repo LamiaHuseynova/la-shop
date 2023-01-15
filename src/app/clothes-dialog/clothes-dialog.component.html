@@ -1,6 +1,29 @@
 <div *ngIf="data" mat-dialog-content>
-    <h1>{{data.title}}</h1>
+    
+    <img class="left_side" [src]="data.img_path" alt=" ">
+
+    <div class="right_side">
+        <h1>{{data.title}}</h1>
     <p>{{data.article}}</p>
-    <img [src]="data.img_path" alt=" ">
+    <div class="options">
+        <mat-card-actions>
+          <button mat-button>
+            <span class="material-symbols-outlined">
+              favorite
+            </span>
+          </button>
+          <button mat-button>
+            <span class="material-symbols-outlined">
+              shopping_cart
+            </span>
+          </button>
+          <button mat-button>
+            <span class="material-symbols-outlined">
+              share
+            </span>
+          </button>
+        </mat-card-actions>
+    </div>
+    </div>
 </div>
 
