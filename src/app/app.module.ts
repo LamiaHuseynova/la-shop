@@ -11,6 +11,7 @@ import { FagComponent } from './fag/fag.component';
 import { MaterialModule } from './material.module';
 import { ClothesComponent } from './clothes/clothes.component';
 import { ClothesDialogComponent } from './clothes-dialog/clothes-dialog.component';
+import { MyFormComponent } from './my-form/my-form.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ClothesDialogComponent } from './clothes-dialog/clothes-dialog.componen
     HomeComponent,
     FagComponent,
     ClothesComponent,
-    ClothesDialogComponent
+    ClothesDialogComponent,
+    MyFormComponent
   ],
   imports: [
     BrowserModule,
