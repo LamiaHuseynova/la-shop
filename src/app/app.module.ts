@@ -12,6 +12,7 @@ import { MaterialModule } from './material.module';
 import { ClothesComponent } from './clothes/clothes.component';
 import { ClothesDialogComponent } from './clothes-dialog/clothes-dialog.component';
 import { MyFormComponent } from './my-form/my-form.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,8 @@ import { MyFormComponent } from './my-form/my-form.component';
     BrowserModule,
     MaterialModule,
     AppRoutingModule,
+    ReactiveFormsModule,
+    FormsModule,
     BrowserAnimationsModule
   ],
   providers: [],
