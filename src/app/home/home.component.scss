@@ -3,7 +3,23 @@
     height: 500px !important;
 }
 
+.crsl-p {
+    font-size: 30px !important;
+    padding-bottom: 25px !important;
+    font-weight: 500 !important;
+}
 
+a {
+    text-decoration: none !important; 
+}
+
+.my-button-crsl {
+    font-size: 15px !important;
+    width: 170px !important;
+    height: 50px !important;
+    background-color: #ffc107 !important;
+    color: black !important;
+}
 
 .collect_header {
     color: white !important;
@@ -12,6 +28,7 @@
     margin-top: 40px !important;
 }
 h1 {
+
     text-align: center !important;
 
 }
@@ -19,4 +36,10 @@ h1 {
     height: 50px!important;
     width: 100% !important;  
     text-align: center !important;  
+}
+
+.card-button {
+    background-color: #ffc107 !important;
+    color: black !important;
+    
 }
