@@ -1,9 +1,23 @@
 .clothes_header {
-    height: 60px !important;
-    width: 100% !important;
-    margin-top: 40px !important;
-}
-h1 {
+    padding: 20px !important;
     text-align: center !important;
+    color: white !important;
+}
 
+.clothes {
+    padding: 0 20% !important;
+}
+
+.items {
+    color: white !important;
+    font-size: 20px !important;
+    margin-top: 10px !important;
+    padding-left: 120px !important;
+}
+
+.details {
+    background-color: #ffc107 !important;
+    margin-bottom: 10px !important;
+    width: 120px !important;
+    height: 40px !important;
 }

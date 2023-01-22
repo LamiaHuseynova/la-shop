@@ -1,15 +1,15 @@
-<div class="container-fluid clothes_header">
-  <h1>CLOTHES</h1>
+<div class="container-fluid">
+  <h1 class="clothes_header">CLOTHES</h1>
 </div>
 
 <!-- dialog box -->
-<div class="container-fluid ">
+<div class="container-fluid clothes">
   <div class="row" *ngFor="let item of clothes let i = index">
-    <div class="col-md-8">
+    <div class="col-md-8 items">
       {{item.title}}
     </div>
     <div class="col-md-4">
-        <button mat-button (click)="openDialog(i)">DETAIL</button>
+        <button class="details" mat-button (click)="openDialog(i)">DETAIL</button>
     </div>
   </div>
 </div>
