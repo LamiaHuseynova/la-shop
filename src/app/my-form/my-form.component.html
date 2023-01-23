@@ -1,4 +1,4 @@
-<div class="container fluid">
+<div class="container fluid" id="form">
     
       <div class="container my-form" *ngIf="!post; else forminfo" novalidate> 
         <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm.value)" class="form">

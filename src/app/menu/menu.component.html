@@ -5,7 +5,24 @@
           <li><img class="logo" src="../../assets/images/logo.png" alt=""></li>
           <li><a routerLink="" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="menu_active"  class="nav-link px-2 text-white">Home</a></li>
           <li><a routerLink="fag" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="menu_active" class="nav-link px-2 text-white">FAQs</a></li>
-          <li><a routerLink="clothes" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="menu_active" class="nav-link px-2 text-white">Clothes</a></li>
+          <li><a routerLink="clothes" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="menu_active" class="nav-link px-2 text-white">
+            <div class="btn-group">
+              <button type="button" class="btn btn-warning">Clothes</button>
+              <button type="button" class="btn btn-warning dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="sr-only"></span>
+              </button>
+              <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(84px, 37px, 0px); top: 0px; left: 0px; will-change: transform;">
+                <a class="dropdown-item" href="#">Dresses</a>
+                <a class="dropdown-item" href="#">Suits</a>
+                <a class="dropdown-item" href="#">Mom & Kids</a>
+                <a class="dropdown-item" href="#">Coats</a>
+                <a class="dropdown-item" href="#">Bags & Shoes</a>
+                <a class="dropdown-item" href="#">Accessories</a>
+                <a class="dropdown-item" href="#">Hats</a>
+                <a class="dropdown-item" href="#">Sports</a>
+              </div>
+            </div>
+          </a></li>
         </ul>
 
         <div class="text-end">
