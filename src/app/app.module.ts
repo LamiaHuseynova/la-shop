@@ -13,6 +13,7 @@ import { ClothesComponent } from './clothes/clothes.component';
 import { ClothesDialogComponent } from './clothes-dialog/clothes-dialog.component';
 import { MyFormComponent } from './my-form/my-form.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { LoginFormComponent } from './login-form/login-form.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FagComponent,
     ClothesComponent,
     ClothesDialogComponent,
-    MyFormComponent
+    MyFormComponent,
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,

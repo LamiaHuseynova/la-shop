@@ -1,5 +1,7 @@
 <div class="container fluid" id="form">
-    
+    <div class="container-fluid form-head">
+      <h1>FORM FOR RAGISTRATION</h1>
+    </div>
       <div class="container my-form" *ngIf="!post; else forminfo" novalidate> 
         <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm.value)" class="form">
       
@@ -34,7 +36,7 @@
           </mat-form-field>
           <br>
           <div class="form-element">
-            <button class="btn-submit" mat-raised-button color="primary" type="submit" class="button" [disabled]="!myForm.valid">Submit Form</button>
+            <button class="btn-submit" mat-raised-button color="primary" type="submit" class="button" [disabled]="!myForm.valid">SIGN-UP</button>
           </div>
       
         </form>
