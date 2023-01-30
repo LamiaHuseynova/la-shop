@@ -57,7 +57,7 @@ getErrorEmail() {
 }
 
 getErrorPassword() {
-  return this.loginForm.get('password')?.hasError('required') ? 'Field is required (at least eight characters, one uppercase letter and one number)' :
+  return this.loginForm.get('password')?.hasError('required') ? 'Field is required' :
     this.loginForm.get('password')?.hasError('requirements') ? 'Password needs to be at least eight characters, one uppercase letter and one number' : '';
 }
 

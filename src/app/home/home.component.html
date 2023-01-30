@@ -7,33 +7,24 @@
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active my_crsl">
-        <img src="../../assets/images/slide1.png" class="bd-placeholder-img" width="100%" height="100%"  alt="">
-        <div class="container">
-          <div class="carousel-caption text-start ">
+      <div class="carousel-item active my_crsl_img my_crsl_img-1">
+        <div class="container carousel-caption text-start">
             <p class="crsl-p">Sign-up and get 30% off for your first shopping.</p>
-            <a href="#"><button class="my-button-crsl" mat-raised-button color="primary">SIGN-UP TODAY</button></a>
-          </div>
+            <a href="#"><button class="my-button-crsl" routerLink="sign-up" mat-raised-button color="primary">SIGN-UP TODAY</button></a>
         </div>
       </div>
 
-      <div class="carousel-item my_crsl">
-        <img src="../../assets/images/slide2.PNG" class="bd-placeholder-img" width="100%" height="100%" alt="">
-        <div class="container">
-          <div class="carousel-caption text-start ">
+      <div class="carousel-item my_crsl_img my_crsl_img-2">
+        <div class="container carousel-caption text-start">
             <p class="crsl-p">Sign-up and get 30% off for your first shopping.</p>
             <a href="#form"><button class="my-button-crsl" mat-raised-button color="primary">SIGN-UP TODAY</button></a>
-          </div>
         </div>
       </div>
 
-      <div class="carousel-item my_crsl">
-        <img src="../../assets/images/slide3.PNG" class="bd-placeholder-img" width="100%" height="100%" alt="">
-        <div class="container">
-          <div class="carousel-caption text-start">
+      <div class="carousel-item my_crsl_img my_crsl_img-3">
+        <div class="container carousel-caption text-start">
             <p class="crsl-p">Sign-up and get 30% off for your first shopping.</p>
             <a href="#"><button class="my-button-crsl" mat-raised-button color="primary">SIGN-UP TODAY</button></a>
-          </div>
         </div>
       </div>
     </div>
@@ -52,7 +43,7 @@
 <!-- Collection -->
 <div class="container-fluid">
   <div class="row collect_header">
-    <h1>LA SHOP COLLECTION</h1>
+    <h1>La Shop Collection</h1>
   </div>
 </div>
 
@@ -66,7 +57,7 @@
         </mat-card-header>
         <img class="card-img" mat-card-image src="../../assets/images/dresses.PNG" alt="Photos of a Dresses">
         <mat-card-actions>
-            <a href="#"><button class="card-button" mat-raised-button color="primary">See more</button></a>
+            <a><button class="card-button" (click)="openDialog(0)" mat-raised-button color="primary">See more</button></a>
         </mat-card-actions>
       </mat-card>
     </div>
@@ -78,7 +69,7 @@
         </mat-card-header>
         <img class="card-img" mat-card-image src="../../assets/images/suits.JPG" alt="Photos of a Suits">
         <mat-card-actions>
-          <a href="#"><button class="card-button" mat-raised-button color="primary">See more</button></a>
+          <a><button class="card-button" mat-raised-button color="primary">See more</button></a>
       </mat-card-actions>
       </mat-card>
     </div>

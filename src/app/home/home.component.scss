@@ -1,6 +1,21 @@
 
-.my_crsl {
+.my_crsl_img {
+    width: 100% !important;
     height: 500px !important;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    margin-top: 75px !important;
+}
+.my_crsl_img-1 {
+    background-image: url(../../assets/images/slide1.png) !important;
+}
+
+.my_crsl_img-2 {
+    background-image: url(../../assets/images/slide2.PNG) !important;
+}
+
+.my_crsl_img-3 {
+    background-image: url(../../assets/images/slide3.PNG) !important;
 }
 
 .crsl-p {
@@ -19,6 +34,7 @@ a {
     height: 50px !important;
     background-color: #ffc107 !important;
     color: black !important;
+    font-family: 'Courier New', Courier, monospace !important;
 }
 
 .collect_header {
