@@ -1,15 +1,12 @@
-
 .header {
-    width: 98% !important;
+    width: 100% !important;
     height: 500px !important;
     background-image: url(../../assets/images/header.jpg) !important;
     background-size: cover !important;
     background-position: right !important;
     background-repeat: no-repeat !important;
-    margin-top: 75px !important;
-    
+    margin-top: 65px !important;   
 }
-
 .header-p {
     width: 400px !important;
     height: 200px !important;
@@ -19,6 +16,14 @@
     font-weight: 500 !important;
     color: antiquewhite;
 }
+h1 {
+    height: 120px !important;
+    width: 100% !important;
+    padding-top: 50px !important;
+    font-size: 35px !important;
+    font-family: 'Pacifico', cursive;
+    text-align: center !important;
+}
 
 a {
     text-decoration: none !important; 
@@ -26,6 +31,7 @@ a {
 
 .header-button {
     font-size: 15px !important;
+    font-weight: 500px !important;
     width: 170px !important;
     height: 50px !important;
     background-color: #ffc107 !important;
@@ -40,12 +46,35 @@ a {
     width: 100% !important;
     margin-top: 40px !important;
 }
-h1 {
-    text-align: center !important;
+.card-img {
+    width: 100% !important;
+    height: 300px !important;
+   background-size: cover !important; 
 }
 
-.card-img {
-    height: 300px !important;
+.card-img-1 {
+    background-image: url(../../assets/images/dresses.PNG) !important;
+}
+.card-img-2 {
+    background-image: url(../../assets/images/suits.JPG) !important;
+}
+.card-img-3 {
+    background-image: url(../../assets/images/mom&kids.JPG) !important;
+}
+.card-img-4 {
+    background-image: url(../../assets/images/coats.PNG) !important;
+}
+.card-img-5 {
+    background-image: url(../../assets/images/bag&shoes.jpg) !important;
+}
+.card-img-6 {
+    background-image: url(../../assets/images/accessories.JPG) !important;
+}
+.card-img-7 {
+    background-image: url(../../assets/images/hats.PNG) !important;
+}
+.card-img-8 {
+    background-image: url(../../assets/images/sports.JPG) !important;
 }
 
 .card_title {

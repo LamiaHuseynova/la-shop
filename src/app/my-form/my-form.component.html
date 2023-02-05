@@ -1,6 +1,6 @@
 <div class="container fluid" id="form">
     <div class="container-fluid form-head">
-      <h1>FORM FOR RAGISTRATION</h1>
+      <h1>Registration Form</h1>
     </div>
       <div class="container my-form" *ngIf="!post; else forminfo" novalidate> 
         <form [formGroup]="myForm" (ngSubmit)="onSubmit(myForm.value)" class="form">

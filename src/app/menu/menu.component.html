@@ -1,7 +1,7 @@
-<header class="p-3 text-bg-dark my_menu">
-    <div class="container">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+<header class="text-bg-dark my_menu">
+    <div class="container my-main-head">
+      <div class="hg-100 d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <ul class="menu-left-side nav  align-items-center col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
           <li><img class="logo" src="../../assets/images/logo.png" alt=""></li>
           <li><a routerLink="" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="menu_active"  class="nav-link px-2 text-white">Home</a></li>
           <li><a routerLink="fag" [routerLinkActiveOptions]="{exact:true}" routerLinkActive="menu_active" class="nav-link px-2 text-white">FAQs</a></li>
@@ -12,23 +12,23 @@
                 <span class="sr-only"></span>
               </button>
               <div class="dropdown-menu" x-placement="bottom-start" style="position: absolute; transform: translate3d(84px, 37px, 0px); top: 0px; left: 0px; will-change: transform;">
-                <a class="dropdown-item" href="#">Dresses</a>
-                <a class="dropdown-item" href="#">Suits</a>
-                <a class="dropdown-item" href="#">Mom & Kids</a>
-                <a class="dropdown-item" href="#">Coats</a>
-                <a class="dropdown-item" href="#">Bags & Shoes</a>
-                <a class="dropdown-item" href="#">Accessories</a>
-                <a class="dropdown-item" href="#">Hats</a>
-                <a class="dropdown-item" href="#">Sports</a>
+                <a class="dropdown-item" >Dresses</a>
+                <a class="dropdown-item" >Suits</a>
+                <a class="dropdown-item" >Mom & Kids</a>
+                <a class="dropdown-item" >Coats</a>
+                <a class="dropdown-item" >Bags & Shoes</a>
+                <a class="dropdown-item" >Accessories</a>
+                <a class="dropdown-item" >Hats</a>
+                <a class="dropdown-item" >Sports</a>
               </div>
             </div>
           </a></li>
-
-         
         </ul>
 
-        <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2" routerLink="login">Login</button>
+        <div class="text-end menu-right-side">
+          <button type="button" class="btn btn-outline-light me-2" routerLink="#"><span class="lnr lnr-heart"></span></button>
+          <button type="button" class="btn btn-outline-light me-2" routerLink="#"><span class="lnr lnr-cart"></span></button>
+          <button type="button" class="btn btn-outline-light me-2" routerLink="login"><span class="lnr lnr-user"></span></button>
           <button type="button" class="btn btn-warning" routerLink="sign-up">Sign-up</button>
         </div>
       </div>
