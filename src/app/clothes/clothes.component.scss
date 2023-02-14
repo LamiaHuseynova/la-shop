@@ -1,21 +1,32 @@
+.page-bg{
+    width: 100% !important;
+    background-image: url(../../assets/images/page-bg.png) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
 h1 {
     height: 150px !important;
     width: 100% !important;
     padding-top: 100px !important;
-    font-size: 27px !important;
+    font-size: 35px !important;
     font-weight: bold !important;
-    font-style: italic !important;
+    font-family: 'Pacifico', cursive;
     text-align: center !important;
   }
-
-.clothes {
-    padding: 0 20% !important;
+.clothes-header {
+    width: 500px !important;
+    
+    background-color: #f2cbf6 !important;
+    z-index: 5 !important;
 }
+
 
 .items {
     font-size: 23px !important;
     margin-top: 10px !important;
-    padding-left: 120px !important;
+    
 }
 
 .details {
@@ -23,4 +34,7 @@ h1 {
     margin-bottom: 10px !important;
     width: 120px !important;
     height: 40px !important;
+}
+.empty-place {
+    height: 30px !important;
 }
