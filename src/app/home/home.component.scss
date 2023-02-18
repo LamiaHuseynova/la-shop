@@ -8,14 +8,15 @@
     margin-top: 65px !important;   
 }
 .header-p {
-    width: 400px !important;
+    width: 550px !important;
     height: 200px !important;
-    font-size: 30px !important;
+    font-size: 40px !important;
     padding-top: 130px !important;
-    padding-left: 50px !important;
+    padding-left: 80px !important;
     font-weight: 500 !important;
-    color: antiquewhite;
-    line-height: 20px !important;
+    color: antiquewhite !important;
+    line-height: 55px !important;
+    letter-spacing: 2px !important;
 }
 h1 {
     height: 120px !important;
@@ -25,11 +26,9 @@ h1 {
     font-family: 'Pacifico', cursive;
     text-align: center !important;
 }
-
 a {
     text-decoration: none !important; 
 }
-
 .header-button {
     font-size: 15px !important;
     font-weight: 500px !important;
@@ -37,10 +36,9 @@ a {
     height: 50px !important;
     background-color: #ffc107 !important;
     color: black !important;
-   margin-top: 50px !important;
-   margin-left: 50px !important;
+   margin-top: 80px !important;
+   margin-left: 80px !important;
 }
-
 .collect_header {
     
     height: 60px !important;
@@ -52,7 +50,6 @@ a {
     height: 300px !important;
    background-size: cover !important; 
 }
-
 .card-img-1 {
     background-image: url(../../assets/images/dresses.PNG) !important;
 }
@@ -77,15 +74,12 @@ a {
 .card-img-8 {
     background-image: url(../../assets/images/sports.JPG) !important;
 }
-
 .card_title {
     height: 45px!important;
     width: 100% !important;  
     text-align: center !important;  
 }
-
 .card-button {
     background-color: #ffc107 !important;
     color: black !important;
-    
 }
