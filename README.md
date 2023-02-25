@@ -1,5 +1,5 @@
 # NewApp
-
+ng deploy --base-href=https://LamiaHuseynova.github.io/la-shop/
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.2.
 
 ## Development server
